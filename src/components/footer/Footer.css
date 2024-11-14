@@ -26,6 +26,9 @@
   margin-bottom: 10px;
   cursor: pointer;
 }
+.footer-content-left img{
+  width:70%;
+}
 .footer-content-center h2,.footer-content-right h2{
     color: white;
   }
