@@ -3,32 +3,34 @@ import logo from './logo.png'
 import search_icon from './search_icon.png'
 //CATEGORIES IMAGES
 import Shakshuka_classic_cat from './menu/BREAKFAST/Shakshuka_classic_cat.webp'
+import Seafood_Salad_cat from './menu/SALAD/Seafood_Salad_cat.webp'
+import Lentil_Cream_Soup_cat from './menu/SOUP/Lentil_Cream_Soup_cat.webp'
 
 
 //BREAKFAST
 import Shakshuka_classic from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Shakshuka_4_cheeses from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Omelet_is_classic from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Omelet_with_hunting_sausages from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Omelet_with_vegetables from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Omelette_4_cheeses from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Falafel from './menu/BREAKFAST/Shakshuka_classic.webp'
-import cheesecakes_with_strawberry_jam_and_honey from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Oatmeal from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Oatmeal_with_fruit from './menu/BREAKFAST/Shakshuka_classic.webp'
+import Shakshuka_4_cheeses from './menu/BREAKFAST/Shakshuka_4_cheeses.webp'
+import Omelet_is_classic from './menu/BREAKFAST/Omelet_is_classic.webp'
+import Omelet_with_hunting_sausages from './menu/BREAKFAST/Omelet_with_hunting_sausages.webp'
+import Omelet_with_vegetables from './menu/BREAKFAST/Omelet_with_vegetables.webp'
+import Omelette_4_cheeses from './menu/BREAKFAST/Omelette_4_cheeses.webp'
+import Falafel from './menu/BREAKFAST/Falafel.webp'
+import cheesecakes_with_strawberry_jam_and_honey from './menu/BREAKFAST/cheesecakes_with_strawberry_jam_and_honey.webp'
+import Oatmeal from './menu/BREAKFAST/Oatmeal.webp'
+import Oatmeal_with_fruit from './menu/BREAKFAST/Oatmeal_with_fruit.webp'
 //SOUP
-import Lentil_Cream_Soup from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Ukrainian_Borsch from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Chicken_Soup_with_Homemade_Noodles from './menu/BREAKFAST/Shakshuka_classic.webp'
+import Lentil_Cream_Soup from './menu/SOUP/Lentil_Cream_Soup.webp'
+import Ukrainian_Borsch from './menu/SOUP/Ukrainian_Borsch.webp'
+import Chicken_Soup_with_Homemade_Noodles from './menu/SOUP/Chicken_Soup_with_Homemade_Noodles.webp'
 //SALAD
-import Tabbouleh from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Fatush from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Caesar_with_shrimp from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Caesar_with_salmon from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Caesar_Chicken_Salad from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Greek_Salad from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Warm_salad_with_veal_and_avocado from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Seafood_Salad from './menu/BREAKFAST/Shakshuka_classic.webp'
+import Tabbouleh from './menu/SALAD/Tabbouleh.webp'
+import Fatush from './menu/SALAD/Fatush.webp'
+import Caesar_with_shrimp from './menu/SALAD/Caesar_with_shrimp.webp'
+import Caesar_with_salmon from './menu/SALAD/Caesar_with_salmon.webp'
+import Caesar_Chicken_Salad from './menu/SALAD/Caesar_Chicken_Salad.webp'
+import Greek_Salad from './menu/SALAD/Greek_Salad.webp'
+import Warm_salad_with_veal_and_avocado from './menu/SALAD/Warm_salad_with_veal_and_avocado.webp'
+import Seafood_Salad from './menu/SALAD/Seafood_Salad.webp'
 //APPETIZERS
 import Mutabal from './menu/BREAKFAST/Shakshuka_classic.webp'
 import Classic_Hummus from './menu/BREAKFAST/Shakshuka_classic.webp'
@@ -148,12 +150,12 @@ export const menu_list = [
     },{
         menu_name: "SOUP",
         menu_name_uk:"СУП",
-        menu_image: Shakshuka_classic_cat,
+        menu_image: Lentil_Cream_Soup_cat,
         addel: "Kichen"
     },{
         menu_name: "SALAD",
         menu_name_uk:"САЛАТ",
-        menu_image: Shakshuka_classic_cat,
+        menu_image: Seafood_Salad_cat,
         addel: "Kichen"
     },{
         menu_name: "APPETIZERS",
@@ -324,18 +326,7 @@ export const food_list = [
 
         category: "BREAKFAST"
     },
-    {
-        _id: "11",
-        name:"Oatmeal with fruit",
-        name_uk: "Вівсяна каша з фруктами",
-        image: Oatmeal_with_fruit,
-        gram:450,
-        price: 147,
-        description: "Food provides essential nutrients for overall health and well-being",
-        description_uk: "uk Food provides essential nutrients for overall health and well-being",
 
-        category: "BREAKFAST"
-    },
     {
         _id: "12",
         name:"Lentil Cream Soup",

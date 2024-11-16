@@ -16,7 +16,7 @@ const FoodDisplay = ({category}) => {
             {food_list.map((item,index)=>{
               if(category==="All" || category===item.category){
 
-                return <FoodItem key={index} id={item._id} name={i18n==='en'?item.name:item.name_uk} description={i18n==='en'?item.description:item.description_uk} price={item.price} image={item.image}/>
+                return <FoodItem key={index} id={item._id} name={i18n.language==='en'?item.name:item.name_uk} description={i18n.language==='en'?item.description:item.description_uk} price={item.price} image={item.image}/>
 
               }
             })}

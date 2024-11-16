@@ -10,9 +10,9 @@ const ExploreMenu = ({addel,setAddel}) => {
       
                 {addel_list.map((item, index) => {
                     return (
-                        <button className={addel === item.addel_name ? "active" : ""} onClick={() => setAddel(prev => prev === item.menu_name ? "Kichen" : item.menu_name)} key={index} >
+                        <button className={addel === item.addel_name ? "active" : ""} onClick={() => setAddel(prev => prev === item.addel_name ? "Kichen" : item.addel_name)} key={index} >
                             
-                            <p>{i18n==='en'?item.addel_name:item.addel_name_uk}</p>
+                            <p>{i18n.language==='en'?item.addel_name:item.addel_name_uk}</p>
 
                         </button>
                     )

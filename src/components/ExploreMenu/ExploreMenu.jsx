@@ -17,7 +17,7 @@ const ExploreMenu = ({category,setCategory,addel}) => {
                     return (
                         <div onClick={() => setCategory(prev => prev === item.menu_name ? "All" : item.menu_name)} key={index} className="explore-menu-list-item">
                             <img className={category === item.menu_name ? "active" : ""} src={item.menu_image} alt={i18n==='en'?item.menu_name:item.menu_name_uk} />
-                            <p>{i18n==='en'?item.menu_name:item.menu_name_uk}</p>
+                            <p>{i18n.language==='en'?item.menu_name:item.menu_name_uk}</p>
 
                         </div>
                     )

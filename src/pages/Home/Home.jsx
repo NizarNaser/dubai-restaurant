@@ -20,7 +20,7 @@ function Home() {
         <meta name="robots" content="index, follow" />
       </Helmet>
         <Header/>
-        <AddelMenu addel={addel} setAddel={setAddel}/>
+        <AddelMenu addel={addel} setAddel={setAddel} />
         <ExploreMenu category={category} setCategory={setCategory} addel={addel}/>
         <FoodDisplay category={category}/>
         
