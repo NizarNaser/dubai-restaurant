@@ -1,8 +1,9 @@
 import "./AddelMenu.css"
 import { addel_list } from "../../assets/assets";
-
+import { useTranslation } from 'react-i18next';
 // eslint-disable-next-line react/prop-types
 const ExploreMenu = ({addel,setAddel}) => {
+    const {i18n } = useTranslation();
     return (
         <div className="addels">
       
@@ -11,7 +12,7 @@ const ExploreMenu = ({addel,setAddel}) => {
                     return (
                         <button className={addel === item.addel_name ? "active" : ""} onClick={() => setAddel(prev => prev === item.menu_name ? "Kichen" : item.menu_name)} key={index} >
                             
-                            <p>{item.addel_name}</p>
+                            <p>{i18n==='en'?item.addel_name:item.addel_name_uk}</p>
 
                         </button>
                     )

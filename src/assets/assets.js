@@ -147,46 +147,57 @@ export const menu_list = [
         addel: "Kichen"
     },{
         menu_name: "SOUP",
+        menu_name_uk:"СУП",
         menu_image: Shakshuka_classic_cat,
         addel: "Kichen"
     },{
         menu_name: "SALAD",
+        menu_name_uk:"САЛАТ",
         menu_image: Shakshuka_classic_cat,
         addel: "Kichen"
     },{
         menu_name: "APPETIZERS",
+        menu_name_uk:"ЗАКУСКИ",
         menu_image: Shakshuka_classic_cat,
         addel: "Kichen"
     },{
         menu_name: "MAIN COURSE",
+        menu_name_uk:"ОСНОВНА СТРАВА",
         menu_image: Shakshuka_classic_cat,
         addel: "Kichen"
     },{
         menu_name: "GRILL",
+        menu_name_uk:"ГРИЛЬ",
         menu_image: Shakshuka_classic_cat,
         addel: "Kichen"
     },{
         menu_name: "HOT APPETIZERS",
+        menu_name_uk:"ГАРЯЧІ ЗАКУСКИ",
         menu_image: Shakshuka_classic_cat,
         addel: "Kichen"
     },{
         menu_name: "BAKING",
+        menu_name_uk:"ВИПІЧКА",
         menu_image: Shakshuka_classic_cat,
         addel: "Kichen"
     },{
         menu_name: "PIZZA",
+        menu_name_uk:"ПІЦА",
         menu_image: Shakshuka_classic_cat,
         addel: "Kichen"
     },{
         menu_name: "SANDWICHES",
+        menu_name_uk:"СЕНДВІЧІ",
         menu_image: Shakshuka_classic_cat,
         addel: "Kichen"
     },{
         menu_name: "SIDES",
+        menu_name_uk:"гарніри",
         menu_image: Shakshuka_classic_cat,
         addel: "Kichen"
     },{
         menu_name: "DESSERTS",
+        menu_name_uk:"ДЕСЕРТИ",
         menu_image: Shakshuka_classic_cat,
         addel: "Kichen"
     }
@@ -201,6 +212,8 @@ export const food_list = [
         gram:400,
         price: 176,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "BREAKFAST"
     },
     {
@@ -211,6 +224,8 @@ export const food_list = [
         gram:450,
         price: 210,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "BREAKFAST"
     },
     {
@@ -221,6 +236,8 @@ export const food_list = [
         gram:200,
         price: 120,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "BREAKFAST"
     },
     {
@@ -231,6 +248,8 @@ export const food_list = [
         gram:250,
         price: 182,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "BREAKFAST"
     },
     {
@@ -241,6 +260,8 @@ export const food_list = [
         gram:250,
         price: 175,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "BREAKFAST"
     },
     {
@@ -251,6 +272,8 @@ export const food_list = [
         gram:250,
         price: 175,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "BREAKFAST"
     },
     {
@@ -261,6 +284,8 @@ export const food_list = [
         gram:400,
         price: 164,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "BREAKFAST"
     },
     {
@@ -271,6 +296,8 @@ export const food_list = [
         gram:180,
         price: 124,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "BREAKFAST"
     },
     {
@@ -281,6 +308,8 @@ export const food_list = [
         gram:350,
         price: 119,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "BREAKFAST"
     },
     {
@@ -291,6 +320,8 @@ export const food_list = [
         gram:450,
         price: 147,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "BREAKFAST"
     },
     {
@@ -301,6 +332,8 @@ export const food_list = [
         gram:450,
         price: 147,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "BREAKFAST"
     },
     {
@@ -311,6 +344,8 @@ export const food_list = [
         gram:350,
         price: 114,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "SOUP"
     },{
         _id: "13",
@@ -320,6 +355,8 @@ export const food_list = [
         gram:350,
         price: 96,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "SOUP"
     },{
         _id: "14",
@@ -329,6 +366,8 @@ export const food_list = [
         gram:350,
         price: 133,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "SOUP"
     },{
         _id: "15",
@@ -338,6 +377,8 @@ export const food_list = [
         gram:200,
         price: 189,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "SALAD"
     },{
         _id: "16",
@@ -347,6 +388,8 @@ export const food_list = [
         gram:200,
         price: 189,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "SALAD"
     },{
         _id: "17",
@@ -356,6 +399,8 @@ export const food_list = [
         gram:200,
         price: 340,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "SALAD"
     },{
         _id: "18",
@@ -365,6 +410,8 @@ export const food_list = [
         gram:200,
         price: 340,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "SALAD"
     },{
         _id: "19",
@@ -374,6 +421,8 @@ export const food_list = [
         gram:200,
         price: 210,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "SALAD"
     },{
         _id: "20",
@@ -383,6 +432,8 @@ export const food_list = [
         gram:200,
         price: 176,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "SALAD"
     },{
         _id: "21",
@@ -392,6 +443,8 @@ export const food_list = [
         gram:200,
         price: 340,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "SALAD"
     },{
         _id: "22",
@@ -401,6 +454,8 @@ export const food_list = [
         gram:200,
         price: 379,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "SALAD"
     },{
         _id: "22",
@@ -410,6 +465,8 @@ export const food_list = [
         gram:150/80,
         price: 199,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "23",
@@ -419,6 +476,8 @@ export const food_list = [
         gram:150/80,
         price: 152,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "23",
@@ -428,6 +487,8 @@ export const food_list = [
         gram:150/80,
         price: 162,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "24",
@@ -437,6 +498,8 @@ export const food_list = [
         gram:150/80,
         price: 180,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "25",
@@ -446,6 +509,8 @@ export const food_list = [
         gram:150/80,
         price: 185,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "26",
@@ -455,6 +520,8 @@ export const food_list = [
         gram:150/80,
         price: 165,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "27",
@@ -464,6 +531,8 @@ export const food_list = [
         gram:100,
         price: 130,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "28",
@@ -473,6 +542,8 @@ export const food_list = [
         gram:150,
         price: 210,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "29",
@@ -482,6 +553,8 @@ export const food_list = [
         gram:300,
         price: 239,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "30",
@@ -491,6 +564,8 @@ export const food_list = [
         gram:300,
         price: 373,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "31",
@@ -500,6 +575,8 @@ export const food_list = [
         gram:225,
         price: 346,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "32",
@@ -509,6 +586,8 @@ export const food_list = [
         gram:100,
         price: 193,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "33",
@@ -518,6 +597,8 @@ export const food_list = [
         gram:180,
         price: 315,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "34",
@@ -527,6 +608,8 @@ export const food_list = [
         gram:180,
         price: 315,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "APPETIZERS"
     },{
         _id: "35",
@@ -536,6 +619,8 @@ export const food_list = [
         gram:300/50,
         price: 265,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "MAIN COURSE"
     },{
         _id: "36",
@@ -545,6 +630,8 @@ export const food_list = [
         gram:400,
         price: 244,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "MAIN COURSE"
     },{
         _id: "37",
@@ -554,6 +641,8 @@ export const food_list = [
         gram:400,
         price: 248,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "MAIN COURSE"
     },{
         _id: "38",
@@ -563,6 +652,8 @@ export const food_list = [
         gram:400,
         price: 380,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "MAIN COURSE"
     },{
         _id: "39",
@@ -572,6 +663,8 @@ export const food_list = [
         gram:350,
         price: 292,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "MAIN COURSE"
     },{
         _id: "40",
@@ -581,6 +674,8 @@ export const food_list = [
         gram:350,
         price: 265,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "MAIN COURSE"
     },{
         _id: "41",
@@ -590,6 +685,8 @@ export const food_list = [
         gram:350,
         price: 345,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "MAIN COURSE"
     },{
         _id: "42",
@@ -599,6 +696,8 @@ export const food_list = [
         gram:350,
         price: 345,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "MAIN COURSE"
     },{
         _id: "43",
@@ -608,6 +707,8 @@ export const food_list = [
         gram:300,
         price: 210,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "MAIN COURSE"
     },{
         _id: "44",
@@ -617,6 +718,8 @@ export const food_list = [
         gram:200/100/75,
         price: 299,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "45",
@@ -626,6 +729,8 @@ export const food_list = [
         gram:200/100/75,
         price: 395,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "46",
@@ -635,6 +740,8 @@ export const food_list = [
         gram:200/100/75,
         price: 279,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "47",
@@ -644,6 +751,8 @@ export const food_list = [
         gram:100/100/50,
         price: 673,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "48",
@@ -653,6 +762,8 @@ export const food_list = [
         gram:1000/500,
         price: 1599,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "49",
@@ -662,6 +773,8 @@ export const food_list = [
         gram:500/250,
         price: 829,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "50",
@@ -671,6 +784,8 @@ export const food_list = [
         gram:200/100/75,
         price: 256,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "51",
@@ -680,6 +795,8 @@ export const food_list = [
         gram:200/100/75,
         price: 256,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "52",
@@ -689,6 +806,8 @@ export const food_list = [
         gram:200/100/75,
         price: 251,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "53",
@@ -698,6 +817,8 @@ export const food_list = [
         gram:1000/550,
         price: 1299,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "54",
@@ -707,6 +828,8 @@ export const food_list = [
         gram:500/250,
         price: 679,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "55",
@@ -716,6 +839,8 @@ export const food_list = [
         gram:200,
         price: 189,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "56",
@@ -725,6 +850,8 @@ export const food_list = [
         gram:300,
         price: 243,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "57",
@@ -734,6 +861,8 @@ export const food_list = [
         gram:150,
         price: 123,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },
     {
@@ -744,6 +873,8 @@ export const food_list = [
         gram:300,
         price: 122,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "59",
@@ -753,6 +884,8 @@ export const food_list = [
         gram:300/100,
         price: 952,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "60",
@@ -762,6 +895,8 @@ export const food_list = [
         gram:300/100,
         price: 952,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "61",
@@ -771,6 +906,8 @@ export const food_list = [
         gram:300/100,
         price: 189,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "62",
@@ -780,6 +917,8 @@ export const food_list = [
         gram:650/200,
         price: 1324,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "63",
@@ -789,6 +928,8 @@ export const food_list = [
         gram:600,
         price: 630,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "64",
@@ -798,6 +939,8 @@ export const food_list = [
         gram:300/100/50,
         price: 217,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "65",
@@ -807,6 +950,8 @@ export const food_list = [
         gram:300/100/50,
         price: 133,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "66",
@@ -816,6 +961,8 @@ export const food_list = [
         gram:300/100/50,
         price: 113,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "67",
@@ -825,6 +972,8 @@ export const food_list = [
         gram:300/100/50,
         price: 127,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },{
         _id: "68",
@@ -834,6 +983,8 @@ export const food_list = [
         gram:350/100/50,
         price: 899,
         description: "Food provides essential nutrients for overall health and well-being",
+        description_uk: "uk Food provides essential nutrients for overall health and well-being",
+
         category: "GRILL"
     },
 ]

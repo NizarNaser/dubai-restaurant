@@ -4,19 +4,19 @@ import "./FoodDisplay.css"
 import { StoreContext } from "../../context/StoreContext"
 import { FoodItem } from "../foodItem/FoodItem"
 
-
+import { useTranslation } from 'react-i18next';
 
 const FoodDisplay = ({category}) => {
-
+  const { t, i18n } = useTranslation();
     const {food_list} = useContext(StoreContext)
   return (
     <div className="food_display" id="food_display">
-        <h2>Top dishes near you</h2>
+        <h2>{t('Top-dishes-near-you')}</h2>
         <div className="food-display-list">
             {food_list.map((item,index)=>{
               if(category==="All" || category===item.category){
 
-                return <FoodItem key={index} id={item._id} name={item.name} description={item.description} price={item.price} image={item.image}/>
+                return <FoodItem key={index} id={item._id} name={i18n==='en'?item.name:item.name_uk} description={i18n==='en'?item.description:item.description_uk} price={item.price} image={item.image}/>
 
               }
             })}

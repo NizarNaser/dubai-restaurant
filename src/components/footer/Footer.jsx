@@ -1,13 +1,14 @@
 import { assets } from "../../assets/assets"
 import "./Footer.css"
-
+import { useTranslation } from 'react-i18next';
 function Footer() {
+  const { t} = useTranslation();
   return (
     <div className="footer" id="footer">
         <div className="footer-content">
            <div className="footer-content-left">
              <img src={assets.logo} alt="" />
-             <p>Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate you dining experience, one delicious meal at a time.</p>
+             <p>{t('Choose-from-a-diverse-menu')}</p>
              <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
                 <img src={assets.twitter_icon} alt="" />
@@ -15,17 +16,17 @@ function Footer() {
              </div>
            </div>
            <div className="footer-content-center">
-            <h2>COMPANY</h2>
+            <h2>{t('COMPANY')}</h2>
               <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Delivery</li>
-                <li>Privacy policy</li>
+                <li>{t('home')}</li>
+                <li>{t('About-us')}</li>
+                <li>{t('Delivery')}</li>
+                <li>{t('Privacy-policy')}</li>
               </ul>
 
            </div>
            <div className="footer-content-right">
-             <h2>GET IN TOUCH</h2>
+             <h2>{t('GET-IN-TOUCH')}</h2>
              <ul>
                 <li>+1-212-456-7890</li>
                 <li>contact@tomato.com</li>
@@ -34,7 +35,7 @@ function Footer() {
 
         </div>
          <hr/>
-         <p className="footer-copyright">Copyright 2024 © Tomato.com - All Right Reserved.</p>
+         <p className="footer-copyright">Copyright 2024 © https://github.com/NizarNaser/Dubai-restaurant - {t('All-Right-Reserved')}.</p>
     </div>
   )
 }
