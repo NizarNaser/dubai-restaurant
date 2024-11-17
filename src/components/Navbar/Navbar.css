@@ -20,15 +20,15 @@
     gap: 40px;
 }
 .navbar-right .lang-select{
-    border: none;
-    background-color: chocolate;
-    font-size: 1.2em;
-    color: aliceblue;
-    padding: 7px 10px;
-    border-radius: 8px;
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
 }
 .navbar-right .lang-option{
-    list-style-type: none;
+   background: chocolate;
+   color: aliceblue;padding: 7px 10px;
+   border-radius: 5px;
+
 }
 .navbar-right .search{
     display: none;
