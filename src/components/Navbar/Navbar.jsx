@@ -25,9 +25,9 @@ function Navbar({setShowLogin}) {
             <a href='#footer'  onClick={()=>setMenu("contact-us")}className={menu==="contact-us"?"active":""}>{t('contact_us')}</a>
         </ul>
         <div className='navbar-right'>
-        <select onChange={changeLanguage} value={i18n.language}>
-        <option onClick={() => changeLanguage('en')} value="en">English</option>
-        <option onClick={() => changeLanguage('uk')} value="uk">ukrainan</option>
+        <select className='lang-select' onChange={changeLanguage} value={i18n.language}>
+        <option className='lang-option'  onClick={() => changeLanguage('en')} value="en">Eng</option>
+        <option className='lang-option' onClick={() => changeLanguage('uk')} value="uk">ukr</option>
       </select>
            <img className='search' src={assets.search_icon} alt=''/>
            <div className="navbar-search-icon">

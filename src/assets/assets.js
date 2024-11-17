@@ -5,6 +5,7 @@ import search_icon from './search_icon.png'
 import Shakshuka_classic_cat from './menu/BREAKFAST/Shakshuka_classic_cat.webp'
 import Seafood_Salad_cat from './menu/SALAD/Seafood_Salad_cat.webp'
 import Lentil_Cream_Soup_cat from './menu/SOUP/Lentil_Cream_Soup_cat.webp'
+import Classic_Hummus_cat from './menu/APPETIZERS/Classic_Hummus_cat.webp'
 
 
 //BREAKFAST
@@ -32,20 +33,20 @@ import Greek_Salad from './menu/SALAD/Greek_Salad.webp'
 import Warm_salad_with_veal_and_avocado from './menu/SALAD/Warm_salad_with_veal_and_avocado.webp'
 import Seafood_Salad from './menu/SALAD/Seafood_Salad.webp'
 //APPETIZERS
-import Mutabal from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Classic_Hummus from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Hot_Hummus from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Avocado_Hummus from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Basil_Hummus from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Hummus_Beiruti from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Olives from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Yalonji from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Fresh_Vegetable_Platter from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Middle_Eastern_Cheese_Platter from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Meat_Platter from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Basturma from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Veal_Tartar from './menu/BREAKFAST/Shakshuka_classic.webp'
-import Salmon_Tartar from './menu/BREAKFAST/Shakshuka_classic.webp'
+import Mutabal from './menu/APPETIZERS/Mutabal.webp'
+import Classic_Hummus from './menu/APPETIZERS/Classic_Hummus.webp'
+import Hot_Hummus from './menu/APPETIZERS/Hot_Hummus.webp'
+import Avocado_Hummus from './menu/APPETIZERS/Avocado_Hummus.webp'
+import Basil_Hummus from './menu/APPETIZERS/Classic_Hummus.webp'
+import Hummus_Beiruti from './menu/APPETIZERS/Hummus_Beiruti.webp'
+import Olives from './menu/APPETIZERS/Olives.webp'
+import Yalonji from './menu/APPETIZERS/Yalonji.webp'
+import Fresh_Vegetable_Platter from './menu/APPETIZERS/Fresh_Vegetable_Platter.webp'
+import Middle_Eastern_Cheese_Platter from './menu/APPETIZERS/Middle_Eastern_Cheese_Platter.webp'
+import Meat_Platter from './menu/APPETIZERS/Meat_Platter.webp'
+import Basturma from './menu/APPETIZERS/Basturma.webp'
+import Veal_Tartar from './menu/APPETIZERS/Veal_Tartar.webp'
+import Salmon_Tartar from './menu/APPETIZERS/Salmon_Tartar.webp'
 //MAIN COURSE
 import Dolma from './menu/BREAKFAST/Shakshuka_classic.webp'
 import Capsies_with_chicken from './menu/BREAKFAST/Shakshuka_classic.webp'
@@ -160,7 +161,7 @@ export const menu_list = [
     },{
         menu_name: "APPETIZERS",
         menu_name_uk:"ЗАКУСКИ",
-        menu_image: Shakshuka_classic_cat,
+        menu_image: Classic_Hummus_cat,
         addel: "Kichen"
     },{
         menu_name: "MAIN COURSE",

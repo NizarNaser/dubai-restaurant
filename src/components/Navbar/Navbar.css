@@ -19,6 +19,17 @@
     align-items: center;
     gap: 40px;
 }
+.navbar-right .lang-select{
+    border: none;
+    background-color: chocolate;
+    font-size: 1.2em;
+    color: aliceblue;
+    padding: 7px 10px;
+    border-radius: 8px;
+}
+.navbar-right .lang-option{
+    list-style-type: none;
+}
 .navbar-right .search{
     display: none;
 }
