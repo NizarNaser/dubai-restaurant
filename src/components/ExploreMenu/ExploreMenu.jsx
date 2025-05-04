@@ -3,20 +3,26 @@ import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
+import Loader from "../../components/Loader/Loader";
 
 const ExploreMenu = ({ category, setCategory, addel }) => {
     const { i18n } = useTranslation();
     const [cat_list, setCatList] = useState([]);
-    const url = "https://backend-repo-v73c.onrender.com";
+    const [loading, setLoading] = useState(true);
+
+    const url = import.meta.env.VITE_API_URL;
 
     const fetchList = async () => {
         try {
             const response = await axios.get(`${url}/api/cat/list-cat`);
             if (response.data.success) {
                 setCatList(response.data.data);
-                console.log("Fetched Data:", response.data.data); // طباعة البيانات المسترجعة
+                setLoading(false);
+
             } else {
                 toast.error("Error fetching categories");
+                setLoading(false);
+
             }
         } catch (error) {
             toast.error("Failed to fetch data");
@@ -26,9 +32,9 @@ const ExploreMenu = ({ category, setCategory, addel }) => {
 
     useEffect(() => {
         fetchList();
-        console.log(addel)
+       
     }, []);
-
+    if (loading) return <Loader />;
     return (
         <div className="explore-menu" id="explore-menu">
             <div className="explore-menu-list">
@@ -41,7 +47,7 @@ const ExploreMenu = ({ category, setCategory, addel }) => {
                         >
                             <img
                                 className={category === item.name ? "active" : ""}
-                                src={`${url}/images/${item.image}`}
+                                src={item.image}
                                 alt={i18n.language === "en" ? item.name : item.name_uk}
                             />
                             <p>{i18n.language === "en" ? item.name : item.name_uk}</p>

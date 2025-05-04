@@ -6,7 +6,6 @@ import "./Home.css"
 import FoodDisplay from "../../components/FoodDisplay/FoodDisplay"
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
-import axios from "axios";
 function Home() {
     const [category,setCategory] = useState('All')
     const [addel,setAddel] = useState('KICHEN')

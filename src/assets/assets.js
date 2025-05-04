@@ -230,19 +230,6 @@ import Calvados_Paul_Devoille_VSOP from './menu/bar/brandy/Calvados_Paul_Devoill
 import Metaxa_7_Star from './menu/bar/brandy/Metaxa_7_Star.png'
 import metaxa_12_stars from './menu/bar/brandy/metaxa_12_stars.png'
 //
-
-
-
-
-
-
-
-
-
-
-
-
-
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
 import remove_icon_red from './remove_icon_red.png'
@@ -477,6 +464,7 @@ export const menu_list = [
 
 ]
 //Menu itames
+//BREAKFAST
 export const food_list = [
     {
         _id: "1",
@@ -598,6 +586,7 @@ export const food_list = [
 
         category: "BREAKFAST"
     },
+    //SOUP
 
     {
         _id: "12",
@@ -632,7 +621,9 @@ export const food_list = [
         description_uk: "",
 
         category: "SOUP"
-    }, {
+    }, 
+    //SALAD
+    {
         _id: "15",
         name: "Tabbouleh",
         name_uk: "Табулі",
@@ -720,7 +711,9 @@ export const food_list = [
         description_uk: "",
 
         category: "SALAD"
-    }, {
+    }, 
+    //APPETIZERS
+    {
         _id: "22",
         name: "Mutabal",
         name_uk: "Мутабаль",
@@ -874,7 +867,9 @@ export const food_list = [
         description_uk: "",
 
         category: "APPETIZERS"
-    }, {
+    }, 
+    //MAIN COURSE
+    {
         _id: "35",
         name: "Dolma",
         name_uk: "Долма",
@@ -984,7 +979,9 @@ export const food_list = [
         description_uk: "",
 
         category: "MAIN COURSE"
-    }, {
+    }, 
+   //GRILL 
+    {
         _id: "44",
         name: "Lamb shashlik",
         name_uk: "Шашлик з баранини",
@@ -1237,7 +1234,9 @@ export const food_list = [
         description_uk: "",
 
         category: "GRILL"
-    }, {
+    },
+   //HOT APPETIZERS 
+    {
         _id: "68",
         name: "Hummus with veal & Nuts",
         name_uk: "Хумус з телятиною та горіхами",
@@ -1358,7 +1357,9 @@ export const food_list = [
         description_uk: "",
 
         category: "HOT APPETIZERS"
-    },{
+    },
+    //BAKING
+    {
         _id: "69",
         name: "Pidet with chicken, mushroom and cheese",
         name_uk: "Піде з куркою, грибами та сиром",
@@ -1424,7 +1425,9 @@ export const food_list = [
         description_uk: "",
 
         category: "BAKING"
-    }, {
+    },
+    //PIZZA
+    {
         _id: "75",
         name: "4 cheeses",
         name_uk: "4 сира",
@@ -1468,7 +1471,9 @@ export const food_list = [
         description_uk: "",
 
         category: "PIZZA"
-    }, {
+    }, 
+   //SANDWICHES 
+    {
         _id: "79",
         name: "Falafel",
         name_uk: "Фалафель",
@@ -1512,7 +1517,9 @@ export const food_list = [
         description_uk: "",
 
         category: "SANDWICHES"
-    }, {
+    }, 
+    //SIDES
+    {
         _id: "83",
         name: "Basmati Rice",
         name_uk: "Басматі",

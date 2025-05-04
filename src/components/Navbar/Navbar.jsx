@@ -40,7 +40,7 @@ const logout = ()=>{
            ?<p><img src={assets.basket_icon} alt=''/></p>
            
            
-           : <Link to='/cart'><img src={assets.basket_icon} alt=''/></Link>}
+           : <Link to='/dubai-restaurant/cart'><img src={assets.basket_icon} alt=''/></Link>}
 
             <div className={getTotalCartAmount()===0?"":"dot"}>
 
