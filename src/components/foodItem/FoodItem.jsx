@@ -7,7 +7,7 @@ import { StoreContext } from "../../context/StoreContext"
 
 
 
-export const FoodItem = ({ id, name, price, ves, description, image }) => {
+export const FoodItem = ({ id, name, price, gram, description, image }) => {
 
     const { cartItems, addToCart, removeFromCart, url } = useContext(StoreContext);
     return (
@@ -34,7 +34,7 @@ export const FoodItem = ({ id, name, price, ves, description, image }) => {
                 </div>
                 <p className="food-item-desc">{description}</p>
                 <p className="food-item-price">&#8372; {price}</p>
-                <p className="food-item-gram">&#9878; {ves}</p>
+                <p className="food-item-gram">&#9878; {gram}</p>
             </div>
 
         </div>
