@@ -2,6 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1807170519172207"
+     crossorigin="anonymous"></script>
+             <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E32YMH7ZF5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  // إعداد الوضع الافتراضي للموافقة (لا توجد موافقة مبدئيًا)
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied'
+  });
+  gtag('config', 'G-E32YMH7ZF5');
+</script>
     <link rel="apple-touch-icon" sizes="180x180" href="/dubai-restaurant/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/dubai-restaurant/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/dubai-restaurant/favicon-16x16.png">
@@ -21,7 +38,7 @@
     href="https://res.cloudinary.com/dii3goppc/image/upload/v1746576022/header_img_svudii.webp"
     type="image/webp"
   />
-    <script type="module" crossorigin src="/dubai-restaurant/assets/index-Dku4cxw7.js"></script>
+    <script type="module" crossorigin src="/dubai-restaurant/assets/index-Dr9_xy0y.js"></script>
     <link rel="stylesheet" crossorigin href="/dubai-restaurant/assets/index-CwV42XuZ.css">
   </head> 
   <body>
@@ -38,6 +55,37 @@
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1807170519172207"
      crossorigin="anonymous"></script>
+    <div id="root"></div>
+    <meta name="google-adsense-account" content="ca-pub-1807170519172207">
+    <div id="cookie-banner" style="position: fixed; bottom: 0; width: 100%; background: #222; color: white; padding: 10px; text-align: center; z-index: 1000;">
+     <p> Diese Seite verwendet Cookies, um Ihre Erfahrung zu verbessern. </p>
+      <button onclick="acceptCookies()" style="display: block; color: aliceblue; margin: 0 auto; border: 1px solid white; border-radius: 5px;padding: 5px;">Ich stimme zu</button>
+    </div>
+    
+    <script>
+      function acceptCookies() {
+        // تحديث الموافقة
+        gtag('consent', 'update', {
+          'ad_storage': 'granted',
+          'analytics_storage': 'granted',
+          'ad_user_data': 'granted',
+          'ad_personalization': 'granted'
+        });
+    
+        // إخفاء البانر
+        document.getElementById('cookie-banner').style.display = 'none';
+    
+        // حفظ الموافقة في localStorage (اختياري)
+        localStorage.setItem('cookie_consent', 'true');
+      }
+    
+      // عرض البانر فقط إذا لم تتم الموافقة بعد
+      window.addEventListener('DOMContentLoaded', () => {
+        if (localStorage.getItem('cookie_consent') === 'true') {
+          acceptCookies(); // الموافقة مسبقًا
+        }
+      });
+    </script>
   </body>
 </html>
 
