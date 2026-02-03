@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 
 function Home() {
   const [category, setCategory] = useState("All");
-  const [addel, setAddel] = useState("KICHEN");
+  const [addel, setAddel] = useState("KITCHEN");
   const [currentPage, setCurrentPage] = useState(1);
   const { t } = useTranslation();
 

@@ -4,11 +4,11 @@ import { assets } from "../../assets/assets";
 import "./FoodItem.css";
 import { StoreContext } from "../../context/StoreContext";
 
-export const FoodItem = ({ id, name , description, price, gram, image }) => {
+export const FoodItem = ({ id, name, description, price, gram, image }) => {
   const { cartItems, addToCart, removeFromCart } = useContext(StoreContext);
 
-  // تحسين رابط Cloudinary
-  const optimizedImage = image.replace("/upload/", "/upload/q_auto,f_auto,w_300/");
+  // Optimized image with quality and auto-format
+  const optimizedImage = image.replace("/upload/", "/upload/q_auto,f_auto,w_400/");
 
   return (
     <div className="food-item">
@@ -16,42 +16,33 @@ export const FoodItem = ({ id, name , description, price, gram, image }) => {
         <img
           className="food-item-image"
           src={optimizedImage}
-          alt={optimizedImage}
+          alt={name}
           width="300"
           height="200"
           decoding="async"
-          loading="lazy"// تحسين LCP
-          style={{ aspectRatio: "3 / 2", objectFit: "cover", borderRadius: "10px" }}
+          loading="lazy"
+          style={{ objectFit: "cover" }}
         />
 
         {!cartItems[id] ? (
           <img
-            loading="lazy"
             className="add"
             onClick={() => addToCart(id)}
             src={assets.add_icon_white}
             alt="Add to cart"
-            width="35"
-            height="35"
           />
         ) : (
           <div className="food-item-counter">
             <img
-              loading="lazy"
               onClick={() => removeFromCart(id)}
               src={assets.remove_icon_red}
-              alt="remove from Cart"
-              width="35"
-              height="35"
+              alt="remove"
             />
             <p>{cartItems[id]}</p>
             <img
-              loading="lazy"
               onClick={() => addToCart(id)}
               src={assets.add_icon_green}
-              alt="Add to cart"
-              width="35"
-              height="35"
+              alt="add"
             />
           </div>
         )}
@@ -60,12 +51,13 @@ export const FoodItem = ({ id, name , description, price, gram, image }) => {
       <div className="food-item-info">
         <div className="food-item-name-rating">
           <p>{name}</p>
-          <img src={assets.rating_starts} alt="rating starts img" />
+          <img src={assets.rating_starts} alt="rating" />
         </div>
-        <p className="food-item-desc">{description}</p>
-        <p className="food-item-price">&#8372; {price}</p>
-        <p className="food-item-gram">&#9878; {gram}</p>
-
+        {description && description !== name && <p className="food-item-desc">{description}</p>}
+        <div className="food-item-price-gram">
+          <p className="food-item-price">$ {price}</p>
+          {gram && <p className="food-item-gram">{gram}</p>}
+        </div>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 function Cart() {
   const navigate = useNavigate()
 
-  const { cartItems, food_list, removeFromCart, getTotalCartAmount,url } = useContext(StoreContext);
+  const { cartItems, food_list, removeFromCart, getTotalCartAmount, url } = useContext(StoreContext);
   return (
 
     <div className="cart">
@@ -79,7 +79,7 @@ function Cart() {
 
           <div className="cart-promocode">
             <div>
-              <p>If have a promo code, Enter it here</p>
+              <p>If you have a promo code, enter it here</p>
               <div className="cart-promocode-input">
                 <input type="text" placeholder="promo code" />
                 <button>Submit</button>

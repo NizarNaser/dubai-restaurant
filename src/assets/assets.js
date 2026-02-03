@@ -46,7 +46,7 @@ export const addel_list = [
 
     },
     {
-        addel_name: "KICHEN",
+        addel_name: "KITCHEN",
         addel_name_uk: "Кухня"
 
     }

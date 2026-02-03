@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="header">
       <img
-        src="https://res.cloudinary.com/dii3goppc/image/upload/v1746576022/header_img_svudii.webp"
+        src="https://res.cloudinary.com/dii3goppc/image/upload/q_auto,f_auto,w_1200/v1746576022/header_img_svudii.webp"
         alt={t('header_img')}
         decoding="async"
         style={{ width: "100%", height: "auto", aspectRatio: "3 / 1" }}

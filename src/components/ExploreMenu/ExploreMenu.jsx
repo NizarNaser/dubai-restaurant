@@ -33,33 +33,33 @@ const ExploreMenu = ({ category, setCategory, addel }) => {
 
     useEffect(() => {
         fetchList();
-       
+
     }, []);
     return (
         <div className="explore-menu" id="explore-menu">
             <div className="explore-menu-list">
                 {loading ? <Loader /> : (
-                cat_list.length > 0 && cat_list[0].hasOwnProperty("addel") ? (
-                    cat_list.filter(item => item.addel === addel).map((item, index) => (
-                        <div
-                            key={index}
-                            className="explore-menu-list-item"
-                            onClick={() => setCategory((prev) => (prev === item.name ? "All" : item.name))}
-                        >
-                            <img
-                                loading="lazy"
-                                className={category === item.name ? "active" : ""}
-                                src={item.image}
-                                width="120" 
-                                height="120"
-                                alt={i18n.language === "en" ? item.name : item.name_uk}
-                            />
-                            <p>{i18n.language === "en" ? item.name : item.name_uk}</p>
-                        </div>
-                    ))
-                ) : (
-                    <p>No categories found or 'addel' is missing</p>
-                ))}
+                    cat_list.length > 0 && cat_list[0].hasOwnProperty("addel") ? (
+                        cat_list.filter(item => item.addel === addel).map((item, index) => (
+                            <div
+                                key={index}
+                                className="explore-menu-list-item"
+                                onClick={() => setCategory((prev) => (prev === item.name ? "All" : item.name))}
+                            >
+                                <img
+                                    loading="lazy"
+                                    className={category === item.name ? "active" : ""}
+                                    src={item.image.replace("/upload/", "/upload/q_auto,f_auto,w_200/")}
+                                    width="120"
+                                    height="120"
+                                    alt={i18n.language === "en" ? item.name : item.name_uk}
+                                />
+                                <p>{i18n.language === "en" ? item.name : item.name_uk}</p>
+                            </div>
+                        ))
+                    ) : (
+                        <p>No categories found or 'addel' is missing</p>
+                    ))}
             </div>
             <hr />
         </div>
